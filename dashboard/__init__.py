@@ -1,0 +1,1 @@
+"""Pacote principal do dashboard analítico SWITAB (TALP)."""
