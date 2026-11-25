@@ -6,7 +6,7 @@ from layouts.main_layout import build_main_layout
 
 def create_app() -> Dash:
     df = load_switab_data()
-    app = Dash(__name__, title="SWITAB — Visualização de Dados (TALP)")
+    app = Dash(__name__, title="SWITAB - Visualização de Dados (TALP)")
     app.layout = build_main_layout(df)
     register_callbacks(app, df)
     return app
